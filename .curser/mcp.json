@@ -1,0 +1,61 @@
+{
+    "spec": 2,
+    "mcpConfig": {
+        "channel": "stable",
+        "version": "1.20.1",
+        "customMappings": null
+    },
+    "forge": {
+        "version": "47.2.0",
+        "mcpChannel": "official",
+        "mcpVersion": "1.20.1"
+    },
+    "mappings": {
+        "channel": "official",
+        "version": "1.20.1"
+    },
+    "minecraft": {
+        "version": "1.20.1",
+        "modLoader": "forge"
+    },
+    "java": {
+        "version": "17",
+        "distribution": "temurin"
+    },
+    "localFiles": {
+        "enabled": true,
+        "paths": [
+            "F:/汪柏毅书籍/编程/curser_login"
+        ],
+        "permissions": {
+            "read": true,
+            "write": true,
+            "execute": true
+        }
+    },
+    "terminal": {
+        "enabled": true,
+        "shell": "powershell",
+        "permissions": {
+            "execute": true,
+            "background": true
+        }
+    },
+    "github": {
+        "enabled": true,
+        "permissions": {
+            "read": true,
+            "write": true,
+            "clone": true,
+            "push": true,
+            "pull": true
+        },
+        "authentication": {
+            "type": "token",
+            "scopes": [
+                "repo",
+                "workflow"
+            ]
+        }
+    }
+} 

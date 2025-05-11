@@ -1,0 +1,11 @@
+{
+  "name": "cursor-config-updater",
+  "version": "1.0.0",
+  "description": "更新 Cursor 配置中的用户指纹",
+  "main": "updateCursorConfig.js",
+  "scripts": {
+    "start": "node updateCursorConfig.js"
+  },
+  "author": "",
+  "license": "MIT"
+} 
